@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6D1364E1DFA9CA000E63686 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D1364D1DFA9CA000E63686 /* AppDelegate.swift */; };
+		A6D136501DFA9CA000E63686 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D1364F1DFA9CA000E63686 /* ViewController.swift */; };
+		A6D136531DFA9CA000E63686 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6D136511DFA9CA000E63686 /* Main.storyboard */; };
+		A6D136561DFA9CA000E63686 /* Microphone_Soundboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6D136541DFA9CA000E63686 /* Microphone_Soundboard.xcdatamodeld */; };
+		A6D136581DFA9CA000E63686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6D136571DFA9CA000E63686 /* Assets.xcassets */; };
+		A6D1365B1DFA9CA000E63686 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6D136591DFA9CA000E63686 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6D1364A1DFA9CA000E63686 /* Microphone-Soundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Microphone-Soundboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D1364D1DFA9CA000E63686 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6D1364F1DFA9CA000E63686 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6D136521DFA9CA000E63686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6D136551DFA9CA000E63686 /* Microphone_Soundboard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Microphone_Soundboard.xcdatamodel; sourceTree = "<group>"; };
+		A6D136571DFA9CA000E63686 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6D1365A1DFA9CA000E63686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6D1365C1DFA9CA000E63686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6D136471DFA9CA000E63686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6D136411DFA9CA000E63686 = {
+			isa = PBXGroup;
+			children = (
+				A6D1364C1DFA9CA000E63686 /* Microphone-Soundboard */,
+				A6D1364B1DFA9CA000E63686 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6D1364B1DFA9CA000E63686 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6D1364A1DFA9CA000E63686 /* Microphone-Soundboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6D1364C1DFA9CA000E63686 /* Microphone-Soundboard */ = {
+			isa = PBXGroup;
+			children = (
+				A6D1364D1DFA9CA000E63686 /* AppDelegate.swift */,
+				A6D1364F1DFA9CA000E63686 /* ViewController.swift */,
+				A6D136511DFA9CA000E63686 /* Main.storyboard */,
+				A6D136571DFA9CA000E63686 /* Assets.xcassets */,
+				A6D136591DFA9CA000E63686 /* LaunchScreen.storyboard */,
+				A6D1365C1DFA9CA000E63686 /* Info.plist */,
+				A6D136541DFA9CA000E63686 /* Microphone_Soundboard.xcdatamodeld */,
+			);
+			path = "Microphone-Soundboard";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6D136491DFA9CA000E63686 /* Microphone-Soundboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6D1365F1DFA9CA000E63686 /* Build configuration list for PBXNativeTarget "Microphone-Soundboard" */;
+			buildPhases = (
+				A6D136461DFA9CA000E63686 /* Sources */,
+				A6D136471DFA9CA000E63686 /* Frameworks */,
+				A6D136481DFA9CA000E63686 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Microphone-Soundboard";
+			productName = "Microphone-Soundboard";
+			productReference = A6D1364A1DFA9CA000E63686 /* Microphone-Soundboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6D136421DFA9CA000E63686 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Ray Paragas";
+				TargetAttributes = {
+					A6D136491DFA9CA000E63686 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = HKAVBPG58A;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A6D136451DFA9CA000E63686 /* Build configuration list for PBXProject "Microphone-Soundboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6D136411DFA9CA000E63686;
+			productRefGroup = A6D1364B1DFA9CA000E63686 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6D136491DFA9CA000E63686 /* Microphone-Soundboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6D136481DFA9CA000E63686 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D1365B1DFA9CA000E63686 /* LaunchScreen.storyboard in Resources */,
+				A6D136581DFA9CA000E63686 /* Assets.xcassets in Resources */,
+				A6D136531DFA9CA000E63686 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6D136461DFA9CA000E63686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D136561DFA9CA000E63686 /* Microphone_Soundboard.xcdatamodeld in Sources */,
+				A6D136501DFA9CA000E63686 /* ViewController.swift in Sources */,
+				A6D1364E1DFA9CA000E63686 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6D136511DFA9CA000E63686 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6D136521DFA9CA000E63686 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6D136591DFA9CA000E63686 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6D1365A1DFA9CA000E63686 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6D1365D1DFA9CA000E63686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6D1365E1DFA9CA000E63686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6D136601DFA9CA000E63686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HKAVBPG58A;
+				INFOPLIST_FILE = "Microphone-Soundboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ray.Microphone-Soundboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A6D136611DFA9CA000E63686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HKAVBPG58A;
+				INFOPLIST_FILE = "Microphone-Soundboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ray.Microphone-Soundboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6D136451DFA9CA000E63686 /* Build configuration list for PBXProject "Microphone-Soundboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D1365D1DFA9CA000E63686 /* Debug */,
+				A6D1365E1DFA9CA000E63686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6D1365F1DFA9CA000E63686 /* Build configuration list for PBXNativeTarget "Microphone-Soundboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D136601DFA9CA000E63686 /* Debug */,
+				A6D136611DFA9CA000E63686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A6D136541DFA9CA000E63686 /* Microphone_Soundboard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A6D136551DFA9CA000E63686 /* Microphone_Soundboard.xcdatamodel */,
+			);
+			currentVersion = A6D136551DFA9CA000E63686 /* Microphone_Soundboard.xcdatamodel */;
+			path = Microphone_Soundboard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A6D136421DFA9CA000E63686 /* Project object */;
+}
