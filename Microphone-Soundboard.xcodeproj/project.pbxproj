@@ -13,6 +13,7 @@
 		A6D136561DFA9CA000E63686 /* Microphone_Soundboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6D136541DFA9CA000E63686 /* Microphone_Soundboard.xcdatamodeld */; };
 		A6D136581DFA9CA000E63686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6D136571DFA9CA000E63686 /* Assets.xcassets */; };
 		A6D1365B1DFA9CA000E63686 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6D136591DFA9CA000E63686 /* LaunchScreen.storyboard */; };
+		A6D136631DFA9F6100E63686 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D136621DFA9F6100E63686 /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A6D136571DFA9CA000E63686 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6D1365A1DFA9CA000E63686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6D1365C1DFA9CA000E63686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6D136621DFA9F6100E63686 /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SoundViewController.swift; path = ../SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				A6D1364D1DFA9CA000E63686 /* AppDelegate.swift */,
 				A6D1364F1DFA9CA000E63686 /* ViewController.swift */,
+				A6D136621DFA9F6100E63686 /* SoundViewController.swift */,
 				A6D136511DFA9CA000E63686 /* Main.storyboard */,
 				A6D136571DFA9CA000E63686 /* Assets.xcassets */,
 				A6D136591DFA9CA000E63686 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6D136631DFA9F6100E63686 /* SoundViewController.swift in Sources */,
 				A6D136561DFA9CA000E63686 /* Microphone_Soundboard.xcdatamodeld in Sources */,
 				A6D136501DFA9CA000E63686 /* ViewController.swift in Sources */,
 				A6D1364E1DFA9CA000E63686 /* AppDelegate.swift in Sources */,

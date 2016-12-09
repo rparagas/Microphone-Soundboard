@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -36,12 +37,79 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="O7j-Su-Unt">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="xPD-cR-CIi"/>
+                        <barButtonItem key="backBarButtonItem" title="Back" id="6c4-Gh-aCZ"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="xPD-cR-CIi">
+                            <connections>
+                                <segue destination="yHT-ee-i6w" kind="show" identifier="addSoundSegue" id="0Kz-WO-9hC"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="860" y="138.98050974512745"/>
+        </scene>
+        <!--Sound View Controller-->
+        <scene sceneID="fkp-yo-OqP">
+            <objects>
+                <viewController id="yHT-ee-i6w" customClass="SoundViewController" customModule="Microphone_Soundboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6fJ-Sa-bgg"/>
+                        <viewControllerLayoutGuide type="bottom" id="kE6-Fx-4mu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="I1D-cj-ns0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K5h-1T-Omi">
+                                <rect key="frame" x="163" y="104" width="49" height="30"/>
+                                <state key="normal" title="Record"/>
+                                <connections>
+                                    <action selector="recordTapped:" destination="yHT-ee-i6w" eventType="touchUpInside" id="66d-og-Rdx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BDI-3q-OMh">
+                                <rect key="frame" x="172" y="164" width="30" height="30"/>
+                                <state key="normal" title="Play"/>
+                                <connections>
+                                    <action selector="playTapped:" destination="yHT-ee-i6w" eventType="touchUpInside" id="5rq-Pb-0eU"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Sound Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vD8-lm-aBs">
+                                <rect key="frame" x="36" y="224" width="303" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KiP-vs-dFf">
+                                <rect key="frame" x="149" y="294" width="76" height="30"/>
+                                <state key="normal" title="Add Sound"/>
+                                <connections>
+                                    <action selector="addTapped:" destination="yHT-ee-i6w" eventType="touchUpInside" id="1DJ-1x-CGp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vD8-lm-aBs" firstAttribute="leading" secondItem="I1D-cj-ns0" secondAttribute="leadingMargin" constant="20" id="0eE-CH-htr"/>
+                            <constraint firstItem="K5h-1T-Omi" firstAttribute="centerX" secondItem="I1D-cj-ns0" secondAttribute="centerX" id="27a-c8-5zz"/>
+                            <constraint firstItem="KiP-vs-dFf" firstAttribute="centerX" secondItem="I1D-cj-ns0" secondAttribute="centerX" id="2l2-sF-Uqe"/>
+                            <constraint firstItem="vD8-lm-aBs" firstAttribute="top" secondItem="BDI-3q-OMh" secondAttribute="bottom" constant="30" id="43Y-CV-ybT"/>
+                            <constraint firstItem="KiP-vs-dFf" firstAttribute="top" secondItem="vD8-lm-aBs" secondAttribute="bottom" constant="40" id="aXf-u2-xMT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vD8-lm-aBs" secondAttribute="trailing" constant="20" id="bXM-6J-JD9"/>
+                            <constraint firstItem="BDI-3q-OMh" firstAttribute="centerX" secondItem="I1D-cj-ns0" secondAttribute="centerX" id="dnm-8P-q3P"/>
+                            <constraint firstItem="BDI-3q-OMh" firstAttribute="top" secondItem="K5h-1T-Omi" secondAttribute="bottom" constant="30" id="gqu-Qk-ACR"/>
+                            <constraint firstItem="K5h-1T-Omi" firstAttribute="top" secondItem="6fJ-Sa-bgg" secondAttribute="bottom" constant="40" id="had-fC-98V"/>
+                            <constraint firstItem="vD8-lm-aBs" firstAttribute="centerX" secondItem="I1D-cj-ns0" secondAttribute="centerX" id="x9S-Nh-maW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="soundTextField" destination="vD8-lm-aBs" id="dtQ-sA-Mcd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hew-ld-F4b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1757" y="140"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="SHc-TQ-icC">
