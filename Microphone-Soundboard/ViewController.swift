@@ -54,6 +54,17 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
     }
     
-    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        let sound = sounds[indexPath.row]
+        context.delete(sound)
+        (UIApplication.shared.delegate as! AppDelegate).saveContext()
+        do {
+            sounds = try context.fetch(Sound.fetchRequest())
+            soundsTableView.reloadData()
+        } catch {
+            print("error")
+        }
+    }
 }
 
